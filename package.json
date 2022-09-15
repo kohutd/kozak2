@@ -1,8 +1,8 @@
 {
   "name": "kozak2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Kozak2 language compiler",
-  "main": "src/main.js",
+  "main": "src/kozak2c.js",
   "type": "module",
   "keywords": [],
   "author": "Davyd Kohut (davyd.kohut@gmail.com)",
@@ -12,9 +12,9 @@
     "url": "https://github.com/kohutd/kozak2"
   },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/kozak2c.js"
   },
   "bin": {
-    "kozak2": "src/main.js"
+    "kozak2c": "src/kozak2c.js"
   }
 }

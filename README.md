@@ -32,7 +32,7 @@ npm install -g kozak2
 Щоб скомпілювати код Козак2, пропишіть наступну команду:
 
 ```shell
-kozak2 hello_world.кзк2
+kozak2c hello_world.кзк2
 ```
 
 Код буде скомпільовано у новий файл під назвою **hello_world**.
