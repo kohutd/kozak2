@@ -20,7 +20,7 @@
 
 - NodeJS
 - NPM
-- Linux or MacOS
+- Linux або MacOS
 
 Для встановлення потрібно прописати наступну команду:
 
