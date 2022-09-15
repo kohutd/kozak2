@@ -1,6 +1,6 @@
 {
   "name": "kozak2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kozak2 language compiler",
   "main": "src/main.js",
   "type": "module",
@@ -13,5 +13,8 @@
   },
   "scripts": {
     "start": "node src/main.js"
+  },
+  "bin": {
+    "kozak2": "src/main.js"
   }
 }
