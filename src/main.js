@@ -3,7 +3,7 @@ import { compile } from "./compiler.js";
 
 const fileName = process.argv[process.argv.length - 1];
 
-if (fileName.endsWith('.кзк2')) {
+if (fileName.endsWith('.кзк2') || fileName.endsWith('.kzk2')) {
     const fileNameWithoutExt = fileName.split('.').slice(0, -1).join('.');
 
     fs.readFile(fileName, 'utf-8', (readError, source) => {
