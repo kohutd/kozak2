@@ -1,13 +1,17 @@
 {
-  "name": "ukrainian",
+  "name": "kozak2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Kozak2 language compiler",
+  "main": "src/main.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Davyd Kohut (davyd.kohut@gmail.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kohutd/kozak2"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  }
 }
